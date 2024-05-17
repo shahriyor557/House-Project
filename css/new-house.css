@@ -89,6 +89,9 @@ main .main-cards .card {
 }
 main .main-cards .card img {
   display: block;
+  width: 380px;
+  height: 246px;
+  margin-bottom: 10px;
 }
 main .main-cards .card .city {
   width: 361px;

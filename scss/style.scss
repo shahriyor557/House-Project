@@ -6,6 +6,8 @@ body {
 }
 
 header {
+    margin: 0 auto;
+
     .navbar {
         .logo-img {
             padding-left: 22px;
@@ -41,7 +43,8 @@ header {
             justify-content: center;
             align-items: center;
             gap: 6px;
-            div{
+
+            div {
                 width: 26px;
                 height: 2px;
                 background-color: black;
@@ -50,23 +53,18 @@ header {
     }
 
     .header-background {
+        margin: 0 auto;
+
         width: 100%;
         height: 657px;
-        background-image: url("../img/home_page_bacround.svg");
+        background-image: url("https://podrobno.uz/upload/iblock/6f4/20210607_191305.jpg");
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-bottom: 80px;
 
-        img {
-            width: 100%;
-            height: 657px;
-            opacity: 0.45;
-            position: relative;
-        }
 
         .header-background-content {
             position: absolute;
@@ -82,14 +80,180 @@ header {
             }
 
             p {
-                color: #FFF;
-                font-size: 18px;
+                font-family: Open Sans;
+                font-size: 24px;
                 font-weight: 700;
                 line-height: 30px;
+                text-align: center;
+                color: white;
+
             }
         }
     }
 }
 
+main {
+    .we_about {
+        margin: 0 auto;
+        max-width: 1273px;
+        height: 500px;
+        margin-top: 74px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        column-gap: 10px;
+
+        .info {
+            width: 50%;
+            height: 100%;
+            background-color: white;
+
+            h2 {
+                font-family: "Playfair Display SC";
+                font-size: 35px;
+                font-weight: 400;
+                line-height: 46.66px;
+                text-align: left;
+                padding-top: 71px;
+                color: rgba(128, 128, 128, 1);
 
 
+            }
+
+            p {
+                margin-top: 27px;
+                max-width: 572px;
+                font-family: "Open Sans";
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 32px;
+                text-align: left;
+
+            }
+
+            h3 {
+                font-family: "Playfair Display SC";
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 28px;
+                text-align: left;
+                margin-top: 24px;
+
+                color: rgba(128, 128, 128, 1);
+
+
+            }
+
+        }
+
+        .foto {
+            width: 50%;
+            height: 100%;
+            background-image: url("../img/Rectangle\ 40.svg");
+            background-repeat: no-repeat;
+            background-position: center;
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+
+
+        }
+
+
+    }
+
+    .for_example_house {
+        margin: 0 auto;
+        max-width: 1273px;
+        height: 500px;
+        margin-top: 74px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        background-color: aqua;
+        column-gap: 10px;
+
+        h3 {
+            font-family: "Playfair Display SC";
+            font-size: 35px;
+            font-weight: 400;
+            line-height: 46.66px;
+            text-align: left;
+            color: rgba(128, 128, 128, 1);
+
+
+        }
+    }
+}
+
+@media (max-width:1162px) {
+    main {
+        .main-cards {
+            justify-content: center;
+            gap: 50px;
+        }
+    }
+
+
+}
+
+@media (max-width:900px) {
+    header {
+        .navbar {
+            .logo-img {
+                img {
+
+                    width: 170px;
+                }
+            }
+
+            ul {
+                li {
+                    display: none;
+                }
+            }
+        }
+
+    }
+
+}
+
+@media(max-width: 681px) {
+    header {
+        .navbar {
+            ul {
+                display: none;
+            }
+        }
+
+        .header-background {
+            .header-background-content {
+                h1 {
+                    text-align: center;
+                }
+
+                p {
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+    main {
+        .main-cards {
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    footer {
+        .footer-content {
+            p {
+                text-align: center;
+            }
+        }
+    }
+}
