@@ -6,75 +6,45 @@ body {
 header {
   margin: 0 auto;
 }
-
 header .navbar {
   max-width: 1273px;
   padding: 17px 0px 10px 0px;
   margin: 0 auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
 }
-
 header .navbar .logo-img {
   padding-left: 22px;
 }
-
 header .navbar ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-column-gap: 35px;
-          column-gap: 35px;
+  align-items: center;
+  -moz-column-gap: 35px;
+       column-gap: 35px;
   cursor: pointer;
 }
-
 header .navbar ul li {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-column-gap: 6px;
-          column-gap: 6px;
+  align-items: center;
+  -moz-column-gap: 6px;
+       column-gap: 6px;
 }
-
 header .navbar .menu {
   cursor: pointer;
   margin-right: 22px;
   width: 26px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   gap: 6px;
 }
-
 header .navbar .menu div {
   width: 26px;
   height: 2px;
   background-color: black;
 }
-
 header .header-background {
   margin: 0 auto;
   width: 100%;
@@ -83,38 +53,22 @@ header .header-background {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
-
 header .header-background .header-background-content {
   position: absolute;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  align-items: center;
   row-gap: 20px;
 }
-
 header .header-background .header-background-content h1 {
   color: #FFF;
   font-size: 96px;
   font-weight: 700;
 }
-
 header .header-background .header-background-content p {
   font-family: Open Sans;
   font-size: 24px;
@@ -129,25 +83,17 @@ main .we_about {
   max-width: 1273px;
   height: 500px;
   margin-top: 74px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-column-gap: 10px;
-          column-gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
 }
-
 main .we_about .info {
   width: 50%;
   height: 100%;
   background-color: white;
 }
-
 main .we_about .info h2 {
   font-family: "Playfair Display SC";
   font-size: 35px;
@@ -155,9 +101,8 @@ main .we_about .info h2 {
   line-height: 46.66px;
   text-align: left;
   padding-top: 71px;
-  color: gray;
+  color: rgb(128, 128, 128);
 }
-
 main .we_about .info p {
   margin-top: 27px;
   max-width: 572px;
@@ -167,7 +112,6 @@ main .we_about .info p {
   line-height: 32px;
   text-align: left;
 }
-
 main .we_about .info h3 {
   font-family: "Playfair Display SC";
   font-size: 18px;
@@ -175,9 +119,8 @@ main .we_about .info h3 {
   line-height: 28px;
   text-align: left;
   margin-top: 24px;
-  color: gray;
+  color: rgb(128, 128, 128);
 }
-
 main .we_about .foto {
   width: 50%;
   height: 100%;
@@ -185,41 +128,34 @@ main .we_about .foto {
   background-repeat: no-repeat;
   background-position: center;
 }
-
 main .we_about .foto img {
   width: 100%;
   height: 100%;
 }
-
 main .for_example_house {
   margin: 0 auto;
   max-width: 1273px;
   margin-top: 74px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
   background-color: aqua;
-  -webkit-column-gap: 10px;
-          column-gap: 10px;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
 }
-
 main .for_example_house h3 {
   font-family: "Playfair Display SC";
   font-size: 35px;
   font-weight: 400;
   line-height: 46.66px;
+<<<<<<< HEAD
   text-align: center;
   color: gray;
+=======
+  text-align: left;
+  color: rgb(128, 128, 128);
+>>>>>>> 8c287c3ec5f9b1d6e9ec569371c5e42b6a24196d
 }
 
 main .for_example_house p {
@@ -318,13 +254,10 @@ main .for_example_house .for_example_foto .foto_left .price strong {
 
 @media (max-width: 1162px) {
   main .main-cards {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    justify-content: center;
     gap: 50px;
   }
 }
-
 @media (max-width: 900px) {
   header .navbar .logo-img img {
     width: 170px;
@@ -333,7 +266,6 @@ main .for_example_house .for_example_foto .foto_left .price strong {
     display: none;
   }
 }
-
 @media (max-width: 681px) {
   header .navbar ul {
     display: none;
@@ -345,15 +277,10 @@ main .for_example_house .for_example_foto .foto_left .price strong {
     text-align: center;
   }
   main .main-cards {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: center;
+    align-items: center;
   }
   footer .footer-content p {
     text-align: center;
   }
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
