@@ -3,6 +3,10 @@ body {
   font-family: "Open Sans";
 }
 
+header {
+  margin: 0 auto;
+}
+
 header .navbar {
   max-width: 1273px;
   padding: 17px 0px 10px 0px;
@@ -72,9 +76,10 @@ header .navbar .menu div {
 }
 
 header .header-background {
+  margin: 0 auto;
   width: 100%;
   height: 657px;
-  background-image: url("../img/home_page_bacround.svg");
+  background-image: url("https://podrobno.uz/upload/iblock/6f4/20210607_191305.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -87,14 +92,6 @@ header .header-background {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-bottom: 80px;
-}
-
-header .header-background img {
-  width: 100%;
-  height: 657px;
-  opacity: 0.45;
-  position: relative;
 }
 
 header .header-background .header-background-content {
@@ -119,9 +116,151 @@ header .header-background .header-background-content h1 {
 }
 
 header .header-background .header-background-content p {
-  color: #FFF;
-  font-size: 18px;
+  font-family: Open Sans;
+  font-size: 24px;
   font-weight: 700;
   line-height: 30px;
+  text-align: center;
+  color: white;
+}
+
+main .we_about {
+  margin: 0 auto;
+  max-width: 1273px;
+  height: 500px;
+  margin-top: 74px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 10px;
+          column-gap: 10px;
+}
+
+main .we_about .info {
+  width: 50%;
+  height: 100%;
+  background-color: white;
+}
+
+main .we_about .info h2 {
+  font-family: "Playfair Display SC";
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 46.66px;
+  text-align: left;
+  padding-top: 71px;
+  color: gray;
+}
+
+main .we_about .info p {
+  margin-top: 27px;
+  max-width: 572px;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+}
+
+main .we_about .info h3 {
+  font-family: "Playfair Display SC";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  margin-top: 24px;
+  color: gray;
+}
+
+main .we_about .foto {
+  width: 50%;
+  height: 100%;
+  background-image: url("../img/Rectangle 40.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+main .we_about .foto img {
+  width: 100%;
+  height: 100%;
+}
+
+main .for_example_house {
+  margin: 0 auto;
+  max-width: 1273px;
+  height: 500px;
+  margin-top: 74px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: aqua;
+  -webkit-column-gap: 10px;
+          column-gap: 10px;
+}
+
+main .for_example_house h3 {
+  font-family: "Playfair Display SC";
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 46.66px;
+  text-align: left;
+  color: gray;
+}
+
+@media (max-width: 1162px) {
+  main .main-cards {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 50px;
+  }
+}
+
+@media (max-width: 900px) {
+  header .navbar .logo-img img {
+    width: 170px;
+  }
+  header .navbar ul li {
+    display: none;
+  }
+}
+
+@media (max-width: 681px) {
+  header .navbar ul {
+    display: none;
+  }
+  header .header-background .header-background-content h1 {
+    text-align: center;
+  }
+  header .header-background .header-background-content p {
+    text-align: center;
+  }
+  main .main-cards {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  footer .footer-content p {
+    text-align: center;
+  }
 }
 /*# sourceMappingURL=style.css.map */
