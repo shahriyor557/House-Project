@@ -3,6 +3,7 @@
 
 body {
     font-family: "Open Sans";
+    position: relative;
 }
 
 header {
@@ -90,12 +91,13 @@ header {
             }
         }
     }
-}
+}   
 
 main {
     margin: 0 auto;
     display: flex;
     flex-direction: column;
+
     .we_about {
         margin: 0 auto;
         max-width: 1273px;
@@ -411,8 +413,9 @@ main {
 
         }
 
-        
+
     }
+
     button {
         margin: 0 auto;
         max-width: 282px;
@@ -428,11 +431,107 @@ main {
         letter-spacing: 0.2em;
         text-align: center;
         color: white;
-        
+        margin-bottom: 50px;
+
 
 
     }
 }
+
+footer {
+    background: #808080;
+    height: 245px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .footer-content {
+        max-width: 470px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 23px;
+
+        .footer-content-img {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            div {
+                margin-top: 20px;
+
+                display: flex;
+                justify-content: center;
+                column-gap: 22px;
+            }
+        }
+
+        p {
+            color: #FFF;
+            font-size: 14px;
+            font-weight: 400;
+        }
+    }
+}
+
+.madol {
+    max-width: calc(328px - 39px);
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-left: 39px;
+    box-shadow: 0px 0px 70px 5px rgba(0, 0, 0, 0.35);
+
+
+    svg {
+        margin-top: 31px;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+        font-family: "Open Sans";
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 21.79px;
+        text-align: left;
+        padding: 5px;
+
+    }
+
+    div {
+        width: 100%;
+        height: 1px;
+        background-color: black;
+        margin: 15px 0;
+    }
+
+    h4 {
+        font-family: "Playfair Display SC";
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 26.66px;
+        text-align: center;
+        margin-bottom: 47px;
+        padding-top: 54px;
+        max-width: 227px;
+
+    }
+
+    display: none;
+}
+
+.active {
+    display: block;
+
+}
+
+
 
 @media (max-width:1162px) {
     main {
