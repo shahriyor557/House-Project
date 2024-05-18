@@ -107,6 +107,7 @@ main .main-cards .card .city a {
   font-size: 24px;
   font-weight: 700;
   line-height: 28px;
+  text-decoration: none;
 }
 
 footer {
