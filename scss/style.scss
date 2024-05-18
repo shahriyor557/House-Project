@@ -93,6 +93,9 @@ header {
 }
 
 main {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
     .we_about {
         margin: 0 auto;
         max-width: 1273px;
@@ -172,7 +175,6 @@ main {
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
-        background-color: aqua;
         column-gap: 10px;
 
         h3 {
@@ -202,12 +204,84 @@ main {
 
         .for_example_foto {
             display: flex;
-            justify-content: space-between;
-            column-gap: 10px;
-            align-items: center;
             width: 100%;
-            background-color: red;
             margin-bottom: 50px;
+            gap: 20px;
+
+            .price {
+                width: calc(100% - 30px);
+                background-color: white;
+                border: 1px double black;
+                border-radius: 2px;
+                display: flex;
+                flex-direction: column;
+                box-shadow: 0px 5px 18px 0px rgba(0, 0, 0, 0.3);
+                padding-bottom: 10px;
+                align-items: center;
+
+
+                b {
+                    font-family: "Open Sans";
+                    font-size: 12px;
+                    font-weight: 400;
+                    line-height: 28px;
+                    text-align: center;
+                    margin-top: 9px;
+                    text-align: center;
+                }
+
+                p {
+                    font-family: "Playfair Display SC";
+                    font-size: 18px;
+                    font-weight: 700;
+                    line-height: 28px;
+                    text-align: center;
+                    margin: 0 auto;
+                    padding: 0;
+
+
+                }
+
+                strong {
+                    font-family: "Open Sans";
+                    font-size: 18px;
+                    font-weight: 600;
+                    line-height: 23px;
+                    text-align: center;
+                    color: black;
+                    padding-top: 11px;
+
+
+                }
+
+                .house_info {
+                    max-width: 317px;
+                    width: 100%;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    gap: 10px;
+                    column-gap: 20px;
+                    margin-top: 13px;
+                    text-align: center;
+
+
+                    p {
+                        font-family: "Open Sans";
+                        font-size: 18px;
+                        color: rgba(96, 96, 96, 1);
+
+                        font-weight: 400;
+                        line-height: 23px;
+                        text-align: center;
+
+                    }
+
+                }
+
+
+            }
+
 
             .foto_left {
                 max-width: 392px;
@@ -216,7 +290,6 @@ main {
                 flex-direction: column;
                 align-items: center;
                 justify-content: center;
-                background-color: yellow;
 
                 img {
                     width: 100%;
@@ -291,7 +364,73 @@ main {
 
             }
 
+            .foto_right {
+                max-width: 808px;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                .foto_right_top {
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+
+                    .price {
+                        height: 190px;
+                        padding: 0 15px;
+                    }
+
+                    img {
+                        margin: 0;
+                        padding: 0;
+                        width: 100%;
+                    }
+                }
+
+                .foto_right_bottom {
+                    display: flex;
+
+                    .bottom_first,
+                    .bottom_second {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+
+                        .price {
+                            margin-left: 0;
+                        }
+
+                    }
+
+                }
+            }
+
+
         }
+
+        
+    }
+    button {
+        margin: 0 auto;
+        max-width: 282px;
+        width: 100%;
+        height: 56px;
+        background: rgba(128, 128, 128, 1);
+        border: 1px solid rgba(128, 128, 128, 1);
+        border-radius: 4px;
+        font-family: "Playfair Display SC";
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 28px;
+        letter-spacing: 0.2em;
+        text-align: center;
+        color: white;
+        
+
+
     }
 }
 
