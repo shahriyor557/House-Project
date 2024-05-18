@@ -139,7 +139,6 @@ main {
 main .we_about {
   margin: 0 auto;
   max-width: 1273px;
-  height: 500px;
   margin-top: 74px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -627,6 +626,21 @@ footer .footer-content p {
   display: block;
 }
 
+@media (max-width: 1270px) {
+  main .for_example_house .for_example_foto {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main .for_example_house .for_example_foto .foto_right .foto_right_bottom img {
+    width: 100%;
+  }
+}
+
 @media (max-width: 1162px) {
   main .main-cards {
     -webkit-box-pack: center;
@@ -643,17 +657,85 @@ footer .footer-content p {
   header .navbar ul li {
     display: none;
   }
+  main .we_about {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    max-width: 850px;
+    width: 100%;
+    margin-top: 0;
+  }
+  main .we_about .info {
+    width: 100%;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main .we_about .info h2,
+  main .we_about .info p,
+  main .we_about .info h3 {
+    text-align: center;
+  }
+  main .we_about .info h3 {
+    margin-top: 35px;
+    margin-bottom: 50px;
+  }
+  main .we_about .info p {
+    margin: 0;
+    padding-top: 27px;
+  }
+}
+
+@media (max-width: 1270px) {
+  main .for_example_house .for_example_foto {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main .for_example_house .for_example_foto .foto_right_top img {
+    width: 100%;
+  }
+  main .for_example_house .for_example_foto .foto_right_bottom {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 
 @media (max-width: 681px) {
+  header {
+    background-color: none;
+  }
   header .navbar ul {
     display: none;
   }
+  header .header-background {
+    height: 400px;
+  }
   header .header-background .header-background-content h1 {
     text-align: center;
+    font-size: 35px;
   }
   header .header-background .header-background-content p {
     text-align: center;
+    font-size: 14px;
   }
   main .main-cards {
     -webkit-box-pack: center;

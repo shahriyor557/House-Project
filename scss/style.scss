@@ -91,7 +91,7 @@ header {
             }
         }
     }
-}   
+}
 
 main {
     margin: 0 auto;
@@ -101,7 +101,6 @@ main {
     .we_about {
         margin: 0 auto;
         max-width: 1273px;
-        height: 500px;
         margin-top: 74px;
         display: flex;
         justify-content: space-between;
@@ -532,6 +531,29 @@ footer {
 }
 
 
+@media (max-width: 1270px) {
+    main {
+        .for_example_house {
+            .for_example_foto {
+                flex-direction: column;
+                align-items: center;
+
+                .foto_right {
+                    .foto_right_bottom {
+                        img {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+
+        }
+
+    }
+}
+
+
+
 
 @media (max-width:1162px) {
     main {
@@ -563,10 +585,74 @@ footer {
 
     }
 
+    main {
+        .we_about {
+            flex-direction: column;
+            align-items: center;
+            max-width: 850px;
+            width: 100%;
+            margin-top: 0;
+
+            .info {
+                width: 100%;
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                h2,
+                p,
+                h3 {
+                    text-align: center;
+
+                }
+
+                h3 {
+                    margin-top: 35px;
+                    margin-bottom: 50px;
+                }
+
+                p {
+                    margin: 0;
+                    padding-top: 27px;
+                }
+
+
+            }
+
+        }
+
+    }
 }
+
+@media (max-width: 1270px) {
+    main {
+        .for_example_house {
+            .for_example_foto {
+                flex-direction: column;
+                align-items: center;
+
+                .foto_right_top {
+                    img {
+                        width: 100%;
+                    }
+                }
+
+                .foto_right_bottom {
+                    flex-direction: column;
+                }
+
+            }
+
+        }
+    }
+
+}
+
 
 @media(max-width: 681px) {
     header {
+        background-color:none ;
         .navbar {
             ul {
                 display: none;
@@ -574,13 +660,16 @@ footer {
         }
 
         .header-background {
+            height: 400px;
             .header-background-content {
                 h1 {
                     text-align: center;
+                    font-size: 35px;
                 }
 
                 p {
                     text-align: center;
+                    font-size: 14px;
                 }
             }
         }
