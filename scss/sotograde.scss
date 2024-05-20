@@ -1,0 +1,414 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+body {
+  font-family: "Open Sans";
+}
+
+header {
+  .navbar {
+    max-width: 1273px;
+    padding: 17px 0px 10px 0px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .logo-img {
+      display: block;
+    }
+    .logo-img-one {
+      display: none;
+    }
+    ul {
+      display: flex;
+      align-items: center;
+      column-gap: 35px;
+      cursor: pointer;
+      li {
+        display: flex;
+        align-items: center;
+        column-gap: 6px;
+      }
+    }
+    .menu {
+      display: block;
+      cursor: pointer;
+    }
+    .menu-one {
+      display: none;
+    }
+  }
+  .header-background {
+    width: 100%;
+    height: 657px;
+    background-image: url(../img/stogger.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    img {
+      width: 100%;
+      height: 657px;
+      opacity: 0.45;
+      position: relative;
+    }
+    .header-background-content {
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      row-gap: 20px;
+      h1 {
+        color: #fff;
+        font-size: 96px;
+        font-weight: 700;
+      }
+    }
+  }
+}
+main {
+  .look-for {
+    max-width: 1305px;
+    padding: 0 16px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+    margin-bottom: 70px;
+    .inputs {
+      width: 600px;
+      padding: 0 15px;
+      display: flex;
+      align-items: center;
+      column-gap: 13px;
+      padding: 13px 23px;
+      border: 1px solid;
+      input {
+        outline: 0;
+        border: 0;
+        background-color: transparent;
+      }
+    }
+    .select-all {
+      .one-select {
+        width: 440px;
+        padding: 13px 32px;
+      }
+    }
+    button {
+      padding: 10px 30px;
+      background-color: #808080;
+      border: 0;
+      color: #fff;
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 28px;
+      letter-spacing: 0.2em;
+      text-align: center;
+    }
+  }
+  .main-cards {
+    max-width: 1305px;
+    padding: 0 16px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    .card {
+      max-width: 391px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.3);
+      img {
+        display: block;
+      }
+      .city {
+        width: 305px;
+        border: 1px solid #808080;
+        padding: 9px 28px;
+        margin-bottom: 10px;
+        h5 {
+          font-size: 12px;
+          font-weight: 400;
+          line-height: 28px;
+          text-align: center;
+        }
+        h3 {
+          font-size: 18px;
+          font-weight: 700;
+          line-height: 28px;
+          margin-bottom: 11px;
+          opacity: 0.6;
+          text-align: center;
+        }
+        .number {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-bottom: 13px;
+          column-gap: 5px;
+          h4 {
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 23px;
+            text-align: center;
+          }
+        }
+        .field {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-bottom: 3px;
+          column-gap: 30px;
+          h4 {
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 23px;
+            text-align: center;
+          }
+        }
+        h4 {
+          text-align: center;
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 23px;
+          text-align: center;
+        }
+      }
+    }
+  }
+}
+
+footer {
+  background: #808080;
+  height: 245px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .footer-content {
+    max-width: 470px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 23px;
+    .footer-content-img {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      div {
+        display: flex;
+        column-gap: 22px;
+      }
+    }
+    p {
+      color: #fff;
+      font-size: 14px;
+      font-weight: 400;
+    }
+  }
+}
+
+@media (max-width: 955px) {
+  main {
+    .look-for {
+      flex-direction: column;
+      row-gap: 20px;
+      .inputs {
+        width: 43%;
+        padding: 0 15px;
+        display: flex;
+        align-items: center;
+        column-gap: 13px;
+        padding: 13px 23px;
+        border: 1px solid;
+        input {
+          outline: 0;
+          border: 0;
+          background-color: transparent;
+        }
+      }
+      .select-all {
+        width: 49%;
+        display: flex;
+        justify-content: center;
+      }
+      button {
+        padding: 10px 30px;
+        background-color: #808080;
+        border: 0;
+        color: #fff;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 28px;
+        letter-spacing: 0.2em;
+        text-align: center;
+      }
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  header {
+    width: 100%;
+    height: 812px;
+    background-image: url(../img/stoger-smail.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin-bottom: 30px;
+    .navbar {
+      padding: 32px 20px;
+      .logo-img {
+        display: none;
+      }
+      .logo-img-one {
+        display: block;
+      }
+      ul {
+        display: none;
+      }
+      .menu {
+        display: none;
+      }
+      .menu-one {
+        display: block;
+      }
+    }
+    .header-background {
+      display: none;
+
+      .header-background-content {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 20px;
+        h1 {
+          color: #fff;
+          font-size: 76px;
+          font-weight: 700;
+        }
+      }
+    }
+  }
+  main {
+    .main-cards {
+      max-width: 1305px;
+      padding: 0 16px;
+      margin: 0 auto;
+      margin-bottom: 100px;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 40px;
+      .card {
+        max-width: 391px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.3);
+        .scop {
+          display: block;
+          width: 100%;
+        }
+        .city {
+          width: 255px;
+          border: 1px solid #808080;
+          margin-bottom: 10px;
+          h5 {
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 28px;
+            text-align: center;
+          }
+          h3 {
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 28px;
+            margin-bottom: 11px;
+            opacity: 0.6;
+            text-align: center;
+          }
+          .number {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 13px;
+            column-gap: 5px;
+            h4 {
+              font-size: 18px;
+              font-weight: 600;
+              line-height: 23px;
+              text-align: center;
+            }
+          }
+          .field {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 3px;
+            column-gap: 30px;
+            h4 {
+              font-size: 14px;
+              font-weight: 400;
+              line-height: 23px;
+              text-align: center;
+            }
+          }
+          h4 {
+            text-align: center;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 23px;
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 681px) {
+  header {
+    width: 100%;
+    height: 812px;
+    background-image: url(../img/stoger-smail.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 30px;
+    .header-background {
+      display: none;
+
+      .header-background-content {
+        h1 {
+          text-align: center;
+          font-size: 40px;
+        }
+        p {
+          text-align: center;
+        }
+      }
+    }
+  }
+  main {
+    .main-cards {
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  footer {
+    .footer-content {
+      p {
+        text-align: center;
+      }
+    }
+  }
+}
