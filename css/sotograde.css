@@ -50,7 +50,7 @@ header .header-background {
 header .header-background img {
   width: 100%;
   height: 657px;
-  opacity: 0.45;
+  opacity: 0.25;
   position: relative;
 }
 header .header-background .header-background-content {
@@ -91,7 +91,7 @@ main .look-for .inputs input {
 }
 main .look-for .select-all .one-select {
   width: 440px;
-  padding: 13px 32px;
+  padding: 16px 32px;
 }
 main .look-for button {
   padding: 10px 30px;
@@ -210,6 +210,9 @@ footer .footer-content p {
 }
 
 @media (max-width: 955px) {
+  header .navbar {
+    padding: 10px;
+  }
   main .look-for {
     flex-direction: column;
     row-gap: 20px;
@@ -299,7 +302,7 @@ footer .footer-content p {
     gap: 40px;
   }
   main .main-cards .card {
-    max-width: 391px;
+    max-width: 351px;
     display: flex;
     flex-direction: column;
     align-items: center;
