@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body{
+	font-family: "Open Sans";
+}
+
+header{
+    .navbar{
+        .logo-img{
+            padding-left: 22px;
+        }
+        max-width: 1273px;
+        padding: 17px 0px 10px 0px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        // background-color: tomato;
+        ul{
+            display: flex;
+            align-items: center;
+            column-gap: 35px;
+            cursor: pointer;
+            li{
+                display: flex;
+                align-items: center;
+                column-gap: 6px;
+            }
+        }
+        .menu {
+            cursor: pointer;
+            margin-right: 22px;
+            width: 26px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 6px;
+
+            div {
+                width: 26px;
+                height: 2px;
+                background-color: black;
+            }
+        }
+    }
+    .header-background{
+        width: 100%;
+        height: 657px;
+        background-image: url(../img/header-background.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 80px;
+        img{
+            width: 100%;
+            height: 657px;
+            opacity: 0.35;
+            position: relative;
+        }
+        .header-background-content{
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            row-gap: 20px;
+            h1{
+                color: #FFF;
+                font-size: 96px;
+                font-weight: 700;
+            }
+            p{ 
+                color: #FFF;
+                font-size: 18px;
+                font-weight: 700;
+                line-height: 30px;
+            }
+        }
+    }
+}
+main{
+    .main-cards{
+        max-width: 1273px;
+        margin: 0 auto;
+        margin-bottom: 100px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        column-gap: 10px;
+        row-gap: 47px;
+        // background-color: tomato;
+        .card{
+            width: 381px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            // background-color: aqua;
+            box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.30);
+            img{
+                display: block;
+                width: 380px;
+                height: 246px;
+                margin-bottom: 10px;
+            }
+            .city{
+                width: 361px;
+                height: 52px;
+                border: 1px solid #808080;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-bottom: 10px;
+                a{
+                    color: #606060;
+                    font-size: 24px;
+                    font-weight: 700;
+                    line-height: 28px;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
+
+footer{
+    background: #808080;
+    height: 245px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .footer-content{
+        max-width: 470px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 23px;
+        .footer-content-img{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            div{
+                margin-top: 20px;
+
+                display: flex;
+                justify-content: center;
+                column-gap: 22px;
+            }
+        }
+        p{
+            color: #FFF;
+            font-size: 14px;
+            font-weight: 400;
+        }
+    }
+}
+
+.madol {
+    max-width: calc(328px - 39px);
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-left: 39px;
+    box-shadow: 0px 0px 70px 5px rgba(0, 0, 0, 0.35);
+
+
+    svg {
+        margin-top: 31px;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+        font-family: "Open Sans";
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 21.79px;
+        text-align: left;
+        padding: 5px;
+
+    }
+
+    div {
+        width: 100%;
+        height: 1px;
+        background-color: black;
+        margin: 15px 0;
+    }
+
+    h4 {
+        font-family: "Playfair Display SC";
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 26.66px;
+        text-align: center;
+        margin-bottom: 47px;
+        padding-top: 54px;
+        max-width: 227px;
+
+    }
+
+    display: none;
+}
+
+.active {
+    display: block;
+
+}
+@media (max-width:1162px) {
+    main{
+        .main-cards{
+        justify-content: center;
+        gap: 50px;
+    }}  
+
+    
+}
+@media (max-width:900px) {
+    header{
+        .navbar{
+            .logo-img{
+                img{
+
+                    width: 170px;   
+                }
+            }
+            ul{
+                li{
+                    display: none;  
+                }
+            }
+        }
+
+    }
+    
+}
+@media(max-width: 681px){
+    header{
+        .navbar{
+            ul{
+                display: none;
+            }
+        }
+        .header-background{
+            .header-background-content{
+                h1{
+                    text-align: center;
+                }
+                p{
+                    text-align: center;
+                }
+            }
+        }
+    }
+    main{
+        .main-cards{
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    footer{
+        .footer-content{
+            p{
+                text-align: center;
+            }
+        }
+    }
+}

@@ -1,0 +1,752 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap");
+body {
+  font-family: "Open Sans";
+  position: relative;
+}
+
+header {
+  margin: 0 auto;
+}
+
+header .navbar {
+  max-width: 1273px;
+  padding: 17px 0px 10px 0px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .navbar .logo-img {
+  padding-left: 22px;
+}
+
+header .navbar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 35px;
+          column-gap: 35px;
+  cursor: pointer;
+}
+
+header .navbar ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 6px;
+          column-gap: 6px;
+}
+
+header .navbar .menu {
+  cursor: pointer;
+  margin-right: 22px;
+  width: 26px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 6px;
+}
+
+header .navbar .menu div {
+  width: 26px;
+  height: 2px;
+  background-color: black;
+}
+
+header .header-background {
+  margin: 0 auto;
+  width: 100%;
+  height: 657px;
+  background-image: url("https://podrobno.uz/upload/iblock/6f4/20210607_191305.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header .header-background .header-background-content {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  row-gap: 20px;
+}
+
+header .header-background .header-background-content h1 {
+  color: #FFF;
+  font-size: 96px;
+  font-weight: 700;
+}
+
+header .header-background .header-background-content p {
+  font-family: Open Sans;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: center;
+  color: white;
+}
+
+main {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main .we_about {
+  margin: 0 auto;
+  max-width: 1273px;
+  margin-top: 74px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 10px;
+          column-gap: 10px;
+}
+
+main .we_about .info {
+  width: 50%;
+  height: 100%;
+  background-color: white;
+}
+
+main .we_about .info h2 {
+  font-family: "Playfair Display SC";
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 46.66px;
+  text-align: left;
+  padding-top: 71px;
+  color: gray;
+}
+
+main .we_about .info p {
+  margin-top: 27px;
+  max-width: 572px;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+}
+
+main .we_about .info h3 {
+  font-family: "Playfair Display SC";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  margin-top: 24px;
+  color: gray;
+}
+
+main .we_about .foto {
+  width: 50%;
+  height: 100%;
+  background-image: url("../img/Rectangle 40.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+main .we_about .foto img {
+  width: 100%;
+  height: 100%;
+}
+
+main .for_example_house {
+  margin: 0 auto;
+  max-width: 1273px;
+  margin-top: 74px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 10px;
+          column-gap: 10px;
+}
+
+main .for_example_house h3 {
+  font-family: "Playfair Display SC";
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 46.66px;
+  text-align: center;
+  color: gray;
+}
+
+main .for_example_house p {
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: center;
+  padding-top: 24px;
+  color: black;
+  max-width: 530px;
+  padding-bottom: 27px;
+}
+
+main .for_example_house .for_example_foto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin-bottom: 50px;
+  gap: 20px;
+}
+
+main .for_example_house .for_example_foto .price {
+  width: calc(100% - 30px);
+  background-color: white;
+  border: 1px double black;
+  border-radius: 2px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-shadow: 0px 5px 18px 0px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 5px 18px 0px rgba(0, 0, 0, 0.3);
+  padding-bottom: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .for_example_house .for_example_foto .price b {
+  font-family: "Open Sans";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center;
+  margin-top: 9px;
+  text-align: center;
+}
+
+main .for_example_house .for_example_foto .price p {
+  font-family: "Playfair Display SC";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
+main .for_example_house .for_example_foto .price strong {
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 23px;
+  text-align: center;
+  color: black;
+  padding-top: 11px;
+}
+
+main .for_example_house .for_example_foto .price .house_info {
+  max-width: 317px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 10px;
+  -webkit-column-gap: 20px;
+          column-gap: 20px;
+  margin-top: 13px;
+  text-align: center;
+}
+
+main .for_example_house .for_example_foto .price .house_info p {
+  font-family: "Open Sans";
+  font-size: 18px;
+  color: #606060;
+  font-weight: 400;
+  line-height: 23px;
+  text-align: center;
+}
+
+main .for_example_house .for_example_foto .foto_left {
+  max-width: 392px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .for_example_house .for_example_foto .foto_left img {
+  width: 100%;
+  height: 100%;
+}
+
+main .for_example_house .for_example_foto .foto_left .price {
+  width: calc(100% - 30px);
+  background-color: white;
+  border: 1px double black;
+  border-radius: 2px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-shadow: 0px 5px 18px 0px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 5px 18px 0px rgba(0, 0, 0, 0.3);
+  padding-bottom: 10px;
+}
+
+main .for_example_house .for_example_foto .foto_left .price b {
+  font-family: "Open Sans";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center;
+  margin-top: 9px;
+}
+
+main .for_example_house .for_example_foto .foto_left .price p {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+main .for_example_house .for_example_foto .foto_left .price strong {
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 23px;
+  text-align: center;
+  color: black;
+  padding-top: 11px;
+}
+
+main .for_example_house .for_example_foto .foto_left .price .house_info {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 10px;
+  -webkit-column-gap: 20px;
+          column-gap: 20px;
+  margin-top: 13px;
+}
+
+main .for_example_house .for_example_foto .foto_left .price .house_info p {
+  font-family: "Open Sans";
+  font-size: 18px;
+  color: #606060;
+  font-weight: 400;
+  line-height: 23px;
+  text-align: center;
+}
+
+main .for_example_house .for_example_foto .foto_right {
+  max-width: 808px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .for_example_house .for_example_foto .foto_right .foto_right_top {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .for_example_house .for_example_foto .foto_right .foto_right_top .price {
+  height: 190px;
+  padding: 0 15px;
+}
+
+main .for_example_house .for_example_foto .foto_right .foto_right_top img {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+main .for_example_house .for_example_foto .foto_right .foto_right_bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .for_example_house .for_example_foto .foto_right .foto_right_bottom .bottom_first,
+main .for_example_house .for_example_foto .foto_right .foto_right_bottom .bottom_second {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .for_example_house .for_example_foto .foto_right .foto_right_bottom .bottom_first .price,
+main .for_example_house .for_example_foto .foto_right .foto_right_bottom .bottom_second .price {
+  margin-left: 0;
+}
+
+main button {
+  margin: 0 auto;
+  max-width: 282px;
+  width: 100%;
+  height: 56px;
+  background: gray;
+  border: 1px solid gray;
+  border-radius: 4px;
+  font-family: "Playfair Display SC";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0.2em;
+  text-align: center;
+  color: white;
+  margin-bottom: 50px;
+}
+
+footer {
+  background: #808080;
+  height: 245px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer .footer-content {
+  max-width: 470px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  row-gap: 23px;
+}
+
+footer .footer-content .footer-content-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer .footer-content .footer-content-img div {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-column-gap: 22px;
+          column-gap: 22px;
+}
+
+footer .footer-content p {
+  color: #FFF;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.madol {
+  max-width: calc(328px - 39px);
+  width: 100%;
+  height: 100vh;
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding-left: 39px;
+  -webkit-box-shadow: 0px 0px 70px 5px rgba(0, 0, 0, 0.35);
+          box-shadow: 0px 0px 70px 5px rgba(0, 0, 0, 0.35);
+  display: none;
+}
+
+.madol svg {
+  margin-top: 31px;
+}
+
+.madol a {
+  text-decoration: none;
+  color: black;
+  font-family: "Open Sans";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 21.79px;
+  text-align: left;
+  padding: 5px;
+}
+
+.madol div {
+  width: 100%;
+  height: 1px;
+  background-color: black;
+  margin: 15px 0;
+}
+
+.madol h4 {
+  font-family: "Playfair Display SC";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26.66px;
+  text-align: center;
+  margin-bottom: 47px;
+  padding-top: 54px;
+  max-width: 227px;
+}
+
+.active {
+  display: block;
+}
+
+@media (max-width: 1270px) {
+  main .for_example_house .for_example_foto {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main .for_example_house .for_example_foto .foto_right .foto_right_bottom img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1162px) {
+  main .main-cards {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 50px;
+  }
+}
+
+@media (max-width: 900px) {
+  header .navbar .logo-img img {
+    width: 170px;
+  }
+  header .navbar ul li {
+    display: none;
+  }
+  main .we_about {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    max-width: 850px;
+    width: 100%;
+    margin-top: 0;
+  }
+  main .we_about .info {
+    width: 100%;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main .we_about .info h2,
+  main .we_about .info p,
+  main .we_about .info h3 {
+    text-align: center;
+  }
+  main .we_about .info h3 {
+    margin-top: 35px;
+    margin-bottom: 50px;
+  }
+  main .we_about .info p {
+    margin: 0;
+    padding-top: 27px;
+  }
+}
+
+@media (max-width: 1270px) {
+  main .for_example_house .for_example_foto {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main .for_example_house .for_example_foto .foto_right_top img {
+    width: 100%;
+  }
+  main .for_example_house .for_example_foto .foto_right_bottom {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media (max-width: 681px) {
+  header {
+    background-color: none;
+  }
+  header .navbar ul {
+    display: none;
+  }
+  header .header-background {
+    height: 400px;
+  }
+  header .header-background .header-background-content h1 {
+    text-align: center;
+    font-size: 35px;
+  }
+  header .header-background .header-background-content p {
+    text-align: center;
+    font-size: 14px;
+  }
+  main .main-cards {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  footer .footer-content p {
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=style.css.map */
